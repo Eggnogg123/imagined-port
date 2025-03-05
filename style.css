@@ -1,0 +1,172 @@
+
+.navBar{
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    width: 100%;
+    position:sticky;
+    top:0;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+    height:45px;
+    z-index: 1;
+}
+html{
+    scroll-behavior: smooth;
+    font-family:sans-serif;
+  
+}
+.navR,.navL{
+    list-style: none;
+    padding: 0;
+}
+.navR li, .navL li{
+    display: inline-block;
+    
+}
+.navL li a{
+    display: block;
+    text-decoration:none;
+    width: (57.758+2+14)px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 14px 0 14px;
+    color: #071013;
+    scroll-behavior: smooth;
+}
+.navR li a{
+    border-left:2px solid #071013;
+    display: block;
+    text-decoration:none;
+    width: (57.758+2+14)px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 14px 0 14px;
+    color: #071013;
+    scroll-behavior: smooth;
+    
+}
+.navR li a:hover,.navL li a:hover{
+    color: #55818a;
+}
+img{
+    border-radius: 20px;
+}
+.Title{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0;
+    justify-self: center;
+}
+.AboutBox{
+    font-size: 20px;
+    color: #071013;
+   
+    display: flex;
+}
+.AboutL{
+    margin-left: 20px;
+    height:250px;
+    width: 40%;
+}
+.AboutR{
+    height:400px;
+}
+body{
+    background-color: rgb(194, 231, 231);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#Projects{
+    height:200px;
+}
+
+.ProjectP1,.ProjectP2,.AboutP1{
+    margin:30px;
+}
+.P1Desc,.P2Desc,.AboutDesc{
+    width: 270px;
+    justify-self: center;
+}
+.P1href:hover,.P2href:hover{
+    border-radius: 5px;;
+    background-color: rgb(234, 68, 137);
+    transition: all 1s;
+}
+.P1href,.P2href{
+    color:#071013;
+}
+.AboutDesc1,.P1Desc1,.P2Desc1{
+    width: 270px;
+    justify-self: center;
+    font-size: 30px;
+}
+.Projects div{
+    height: 100px;
+}
+.P1Right,.P2Left{
+    width:200px;
+    font-size: 20px;
+    height: 460px;
+}
+.PicHold{
+    width: 10px;
+    position: fixed;
+}
+.Project1{
+    display: flex;
+    justify-content: space-around;
+    height: 460px;
+}
+.Project2{
+    display: flex;
+    justify-content: space-around;
+    height: 460px;
+}
+.Separate{
+    width:600px;
+    height: 400px;
+}
+.Contact{
+    background-color: #ae9a9a;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContactI a{
+    width: 30px;
+    height: 30px;
+}
+.ContactI p, .ContactI div{
+    display: none;
+    font-size: 10px;
+}
+.picC:hover{
+    width:40px;
+    height:40px;
+    transition: all .4s ease;
+}
+.picC{
+    mix-blend-mode: multiply;
+    width: 30px;
+    height: 30px;
+    padding: 0 20px 0 20px;
+}
+.pic{
+    mix-blend-mode:normal;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 30px;
+}
+.pic:hover{
+    width: 575px;
+    height:375px;
+    transition: all 1s ease;
+}
