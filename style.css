@@ -177,3 +177,6 @@ body{
     height:375px;
     transition: all 1s ease;
 }
+#gitA{
+    text-decoration: none;
+}
